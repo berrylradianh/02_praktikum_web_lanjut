@@ -18,9 +18,9 @@ Route::get('/', function(){
 });
 
 Route::get('/about', function(){
-    echo "NIM   : 2041720102";
-    echo "Nama  : Berryl Radian Hamesha";
-    echo "kelas : TI-2D";
+    echo "NIM   : 2041720102 <br>";
+    echo "Nama  : Berryl Radian Hamesha <br>";
+    echo "kelas : TI-2D <br>";
 });
 
 Route::get('/articles/{id}', function($id){
