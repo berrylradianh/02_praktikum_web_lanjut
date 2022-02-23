@@ -21,7 +21,13 @@ Route::get('/', function($id){
     echo "Selamat Datang";
 });
 
+Route::get('/about', function($id){
+    echo "NIM   : 2041720102";
+    echo "Nama  : Berryl Radian Hamesha";
+    echo "kelas : TI-2D";
+});
+
 Route::get('/articles/{id}', function($id){
-    echo "ini merupakan halaman artikel dengan id" . $id;
+    echo "ini merupakan halaman artikel dengan ID" . $id;
 });
 
