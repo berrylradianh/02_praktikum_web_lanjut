@@ -13,15 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/', function($id){
+Route::get('/', function(){
     echo "Selamat Datang";
 });
 
-Route::get('/about', function($id){
+Route::get('/about', function(){
     echo "NIM   : 2041720102";
     echo "Nama  : Berryl Radian Hamesha";
     echo "kelas : TI-2D";
